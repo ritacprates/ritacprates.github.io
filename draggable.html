@@ -49,9 +49,9 @@
 <div class="square">
    
 <div id="mydiv">
-    <div id="button-close"><img class="image-fancybox" src="https://tse2.mm.bing.net/th?id=OIP.6zr7ZI_HABd1EU83xKyHZgEsEs&pid=15.1&H=160&W=160&P=0" height=35px width=35px></div>
+    <div id="button-close"><a href="#"> <img class="image-fancybox" src="https://tse2.mm.bing.net/th?id=OIP.6zr7ZI_HABd1EU83xKyHZgEsEs&pid=15.1&H=160&W=160&P=0" height=35px width=35px></a></div>
   <!--Include a header DIV with the same name as the draggable DIV, followed by "header":-->
-  <div id="mydivheader"><a href="http://www.google.com">hello</a></div>
+  <div id="mydivheader"></div>
 
     
 </div>
@@ -60,7 +60,7 @@
     
     <div class="square2">
 <div id="mydiv2">
-     <div id="button-close2"><img class="image-fancybox" src="https://tse2.mm.bing.net/th?id=OIP.6zr7ZI_HABd1EU83xKyHZgEsEs&pid=15.1&H=160&W=160&P=0" height=35px width=35px></div>
+    <div id="button-close2"><a href="#"><img class="image-fancybox2" src="https://tse2.mm.bing.net/th?id=OIP.6zr7ZI_HABd1EU83xKyHZgEsEs&pid=15.1&H=160&W=160&P=0" height=35px width=35px></a></div>
   <!--Include a header DIV with the same name as the draggable DIV, followed by "header":-->
   <div id="mydivheader2"></div>
 
@@ -166,7 +166,7 @@ $(document).ready(function() {
 	$('.image-fancybox').click(function(e){
 		e.preventDefault();
 $.fancybox([
-{href:'images/image.jpg', title: '01'},
+{href:'images/image.jpg'},
 
 ],{
 //			href: this.href,
@@ -179,6 +179,25 @@ $.fancybox([
 		}); // fancybox
 	}); // click
 	
+    
+    $('.image-fancybox2').click(function(e){
+		e.preventDefault();
+$.fancybox([
+{href:'images/tommy.jpg'},
+
+],{
+//			href: this.href,
+			helpers: {
+				overlay: {
+				opacity: 0.3
+				} // overlay
+				//, buttons: {}
+			} // helpers
+		}); // fancybox
+	}); // click
+    
+    
+    
 
 }); // ready
 /* ]]> */
