@@ -52,7 +52,7 @@
 	<div class="row">
 		<div class="twelve columns">
 		
-            <p align="left"><h2>the punk rock effect</h2></p>
+            <p align="left"><h2>the punk rock effect</h2>
 		</div>
     
 	</div>
@@ -115,24 +115,24 @@
 		</div>
 	</div>
     
+     <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-b").click(function() {
+                $.fancybox.open({
+                    href : 'album-details.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+  
+    
   <script>
 /* <![CDATA[ */
 $(document).ready(function() {
-	$('.image-fancybox').click(function(e){
-		e.preventDefault();
-$.fancybox([
-{href:'images/image.jpg'},
 
-],{
-//			href: this.href,
-			helpers: {
-				overlay: {
-				opacity: 0.3
-				} // overlay
-				//, buttons: {}
-			} // helpers
-		}); // fancybox
-	}); // click
 	
     
     $('.image-fancybox2').click(function(e){
