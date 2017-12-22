@@ -54,20 +54,30 @@
            <a href="index.html">   the punk rock effect</a></div><br><br>
    <div id="about"><a href="about.html">sobre</a></div>  <div id="punk"><a href="punk.html">punk</a></div><div id="rock"> <a href="rock.html"> rock</a></div><div id="filter-collection"><a href="sort-collection.html">colecção organizada</a></div><div id="explore-collection"><a href="explore-collection.html">explorar colecção</a></div>
 	
-	
 	<br><br><br><br>
         </div>
+<!--	<div class="row">
+		<div class="twelve columns">
+			<ul class="nav-bar">
+ 		 		<li class="active"><a href="#">Home</a></li>
+  				<li><a href="#">Tutorials</a></li>
+  				<li><a href="#">Inspiration</a></li>
+  				<li><a href="#">Contact Us</a></li>
+			</ul>
+			
+		</div>
+	</div>   -->
 
 	
 	
     <br><br><br>
-    <div id="main-frame-pink" class="video-container">
+    <div id="main-frame" class="video-container">
             
-
+     <iframe src="draggable.html" height="100%" width="100%" style="border: none;"></iframe>
 </div>
         
    </div>         
-	<br><br><br><br><br>
+	<br><br><br><br>
 	<div class="row">
 		<div class="twelve columns">
 		<p align="center">©2017 Rita Prates</p>
@@ -76,7 +86,7 @@
     
      <script type="text/javascript">
         $(document).ready(function() {
-            $("#fancybox-manual-b").click(function() {
+            $("#fancybox-manual").click(function() {
                 $.fancybox.open({
                     href : 'album-details-tommy.html',
                     type : 'iframe',
@@ -87,35 +97,30 @@
         });
     </script>
   
-    
-  <script>
-/* <![CDATA[ */
-$(document).ready(function() {
+ <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-2").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-tommy.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
 
-	
+        });
+    </script>
     
-    $('.image-fancybox2').click(function(e){
-		e.preventDefault();
-$.fancybox([
-{href:'images/tommy.jpg'},
+     <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-3").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-tommy.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
 
-],{
-//			href: this.href,
-			helpers: {
-				overlay: {
-				opacity: 0.3
-				} // overlay
-				//, buttons: {}
-			} // helpers
-		}); // fancybox
-	}); // click
-    
-    
-    
-
-}); // ready
-/* ]]> */
-</script>
-    
+        });
+    </script>
     
 </body>

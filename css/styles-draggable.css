@@ -898,6 +898,14 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
   /* NOTES Close button entity is &#215;
  Example markup <div id="myModal" class="reveal-modal"> <h2>Awesome. I have it.</h2> <p class="lead">Your couch.  I it's mine.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p> <a class="close-reveal-modal">&#215;</a> </div> */
 
+
+
+
+
+
+
+/* TOMMY */
+
 .square {
   position: relative;
   width: 20%;
@@ -912,6 +920,8 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
 
 }
 
+
+
 #mydiv {
     position: absolute;
     width: 100%;
@@ -923,7 +933,7 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     top: 10%;
     left: 20%;
     z-index: 9;
-    background-image: url(../images/tommy.jpg) !important;
+    background-image: url(../images/albums/tommy.jpg) !important;
     background-size: 100% auto;
     border: 1px solid #d3d3d3;
     text-align: center;
@@ -942,6 +952,17 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     color: #fff;
 }
 
+
+#button-close{
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+/* SGT PEPPER'S */
 
 
 .square2 {
@@ -969,7 +990,7 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     top: 20%;
     left: 150%;
     z-index: 50;
-    background-image: url(../images/sgt-peppers.jpg) !important;
+    background-image: url(../images/albums/sgt-peppers.jpg) !important;
     background-size: 100% auto;
     border: 1px solid #d3d3d3;
     text-align: center;
@@ -988,7 +1009,7 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
 }
 
 
-#button-close{
+#button-close2{
     display: block;
     z-index: 10;
     position: relative;
@@ -996,8 +1017,54 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     right: -50%;  
 }
 
+/* SATANIC MAJESTIES */
 
-#button-close2{
+
+.square3 {
+  position: relative;
+  width: 20%;
+    border: none;
+}
+
+.square3:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv3 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: -150%;
+    left: 300%;
+    z-index: 50;
+    background-image: url(../images/albums/satanic-majesties.jpg) !important;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(-10deg);
+}
+
+
+#mydivheader3 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close3{
     display: block;
     z-index: 10;
     position: relative;

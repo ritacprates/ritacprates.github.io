@@ -49,18 +49,18 @@
 <div class="square">
    
 <div id="mydiv">
-    <div id="button-close"><a href="#"> <img id="fancybox-manual-b" src="https://tse2.mm.bing.net/th?id=OIP.6zr7ZI_HABd1EU83xKyHZgEsEs&pid=15.1&H=160&W=160&P=0" height=35px width=35px></a></div>
+    <div id="button-close"><a href="#"> <img id="fancybox-manual" src="https://tse2.mm.bing.net/th?id=OIP.6zr7ZI_HABd1EU83xKyHZgEsEs&pid=15.1&H=160&W=160&P=0" height=35px width=35px></a></div>
   <!--Include a header DIV with the same name as the draggable DIV, followed by "header":-->
   <div id="mydivheader"></div>
 
     
 </div>
     </div>
-    </div>
+    
     
     <div class="square2">
 <div id="mydiv2">
-    <div id="button-close2"><a href="#"><img class="image-fancybox2" src="https://tse2.mm.bing.net/th?id=OIP.6zr7ZI_HABd1EU83xKyHZgEsEs&pid=15.1&H=160&W=160&P=0" height=35px width=35px></a></div>
+    <div id="button-close2"><a href="#"><img id="fancybox-manual-2" src="https://tse2.mm.bing.net/th?id=OIP.6zr7ZI_HABd1EU83xKyHZgEsEs&pid=15.1&H=160&W=160&P=0" height=35px width=35px></a></div>
   <!--Include a header DIV with the same name as the draggable DIV, followed by "header":-->
   <div id="mydivheader2"></div>
 
@@ -68,7 +68,19 @@
     
 </div>
     </div>
-        
+    
+    
+        <div class="square3">
+<div id="mydiv3">
+    <div id="button-close3"><a href="#"><img id="fancybox-manual-3" src="https://tse2.mm.bing.net/th?id=OIP.6zr7ZI_HABd1EU83xKyHZgEsEs&pid=15.1&H=160&W=160&P=0" height=35px width=35px></a></div>
+  <!--Include a header DIV with the same name as the draggable DIV, followed by "header":-->
+  <div id="mydivheader3"></div>
+
+  
+    
+</div>
+    </div>
+        </div>
           
             <script>
 //Make the DIV element draggagle:
@@ -158,10 +170,54 @@ function dragElement(elmnt) {
   }
 }
 </script>
+    
+       <script>
+//Make the DIV element draggagle:
+dragElement(document.getElementById(("mydiv3")));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    /* if present, the header is where you move the DIV from:*/
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  } else {
+    /* otherwise, move the DIV from anywhere inside the DIV:*/
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    /* stop moving when mouse button is released:*/
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+</script>
   
     <script type="text/javascript">
         $(document).ready(function() {
-            $("#fancybox-manual-b").click(function() {
+            $("#fancybox-manual").click(function() {
                 parent.$.fancybox.open({
                     href : 'album-details-tommy.html',
                     type : 'iframe',
@@ -172,34 +228,30 @@ function dragElement(elmnt) {
         });
     </script>
 
-<script>
-/* <![CDATA[ */
-$(document).ready(function() {
+ <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-2").click(function() {
+                parent.$.fancybox.open({
+                    href : 'album-details-tommy.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
 
-	
+        });
+    </script>
     
-    $('.image-fancybox2').click(function(e){
-		e.preventDefault();
-parent.$.fancybox([
-{href:'images/tommy.jpg'},
+     <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-3").click(function() {
+                parent.$.fancybox.open({
+                    href : 'album-details-tommy.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
 
-],{
-//			href: this.href,
-			helpers: {
-				overlay: {
-				opacity: 0.3
-				} // overlay
-				//, buttons: {}
-			} // helpers
-		}); // fancybox
-	}); // click
-    
-    
-    
-
-}); // ready
-/* ]]> */
-</script>
-
+        });
+    </script>
     
 </body>

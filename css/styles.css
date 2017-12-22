@@ -903,12 +903,198 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
 #main-frame {
     background-color: aqua;
     width: 100%;
-    height: 55vw;
-    max-height: 550px !important;
-    max-width: 950px;
+    height: 80vw;
+    max-height: 800px !important;
+    max-width: 1300px;
+    margin: 0 auto;
+    
+}
+
+#main-frame-pink {
+    background-color: lightcoral;
+    width: 100%;
+    height: auto;
+    min-height: 500px !important;
+    max-width: 1300px;
     margin: 0 auto;
     
 }
 
 
+#main-body {
+    background-color: lightcoral;
+    width: 100%;
+    height: auto;
+    max-width: 1300px;
+    margin: 0 auto;
+    
+}
 
+#header {
+    background-color: blueviolet;
+    width: 100%;
+    height: auto;
+    max-width: 1300px;
+    margin: 0 auto;
+    
+}
+
+
+#title-home {
+    width: 30%;
+    padding-left: 20px;
+    max-width: 330px;
+    min-width: 300px;
+    font-size: 2em;
+    text-align: left;
+    font-weight: 700;
+    background-color: aquamarine;
+}
+
+
+#about {
+    width: 20%;
+    position: relative;
+    right: 0px;
+    max-width: 100px;
+    min-width: 70px;
+    float: right;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 20px;
+    background-color: chartreuse;
+    line-height: 30px;
+    
+    
+}
+
+
+
+#punk {
+    width: 15%;
+    position: relative;
+    max-width: 100px;
+    min-width: 70px;
+    float: right;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 20px;
+    background-color: blue;
+    line-height: 30px;
+    
+    
+}
+
+
+#rock {
+    width: 15%;
+    position: relative;
+    max-width: 100px;
+    min-width: 70px;
+    float: right;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 20px;
+    background-color: darkcyan;
+    line-height: 30px;
+    
+    
+}
+
+
+#filter-collection {
+    width: 20%;
+    position: relative;
+    max-width: 250px;
+    min-width: 230px;
+    float: right;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 10px;
+    background-color: darkorange;
+    line-height: 30px;
+    
+}
+
+#explore-collection {
+    width: 20%;
+    position: relative;
+    max-width: 230px;
+    min-width: 210px;
+    float: right;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 10px;
+    background-color: floralwhite;
+    line-height: 30px;
+    
+}
+
+
+#title-home a, #about a, #punk a, #rock a, #sort-collection a, #filter-collection a, #explore-collection a{
+    color: black;
+    
+}
+
+#title-home a:hover, #about a:hover, #punk a:hover, #rock a:hover, #sort-collection a:hover, #filter-collection a:hover, #explore-collection a:hover{
+    color: darkturquoise;
+    
+}
+
+#rock-title {
+    
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#rock-text {
+    
+    max-width: 850px;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+
+#punk-title {
+    
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#punk-text {
+    
+    max-width: 850px;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+    
+}
+
+#about-title {
+    
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#about-text {
+    
+    max-width: 850px;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
