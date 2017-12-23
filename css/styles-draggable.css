@@ -907,9 +907,11 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
 /* TOMMY */
 
 .square {
-  position: relative;
+  position: absolute;
   width: 20%;
     border: none;
+    top: 0px;
+    left: 0px;
 }
 
 .square:after {
@@ -930,10 +932,11 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     max-width: 250px;
     min-width: 75px;
     min-height: 75px;
-    top: 10%;
+    top: 25%;
     left: 20%;
     z-index: 9;
     background-image: url(../images/albums/tommy.jpg) !important;
+    background-repeat: no-repeat;
     background-size: 100% auto;
     border: 1px solid #d3d3d3;
     text-align: center;
@@ -966,9 +969,11 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
 
 
 .square2 {
-  position: relative;
+  position: absolute;
   width: 20%;
     border: none;
+    top: 0px;
+    left: 0px;
 }
 
 .square2:after {
@@ -987,10 +992,11 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     max-width: 250px;
     min-width: 75px;
     min-height: 75px;
-    top: 20%;
+    top: 80%;
     left: 150%;
     z-index: 50;
     background-image: url(../images/albums/sgt-peppers.jpg) !important;
+    background-repeat: no-repeat;
     background-size: 100% auto;
     border: 1px solid #d3d3d3;
     text-align: center;
@@ -1021,9 +1027,11 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
 
 
 .square3 {
-  position: relative;
+   position: absolute;
   width: 20%;
     border: none;
+    top: 0px;
+    left: 0px;
 }
 
 .square3:after {
@@ -1042,10 +1050,11 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     max-width: 250px;
     min-width: 75px;
     min-height: 75px;
-    top: -150%;
+    top: 50%;
     left: 300%;
     z-index: 50;
     background-image: url(../images/albums/satanic-majesties.jpg) !important;
+    background-repeat: no-repeat;
     background-size: 100% auto;
     border: 1px solid #d3d3d3;
     text-align: center;
@@ -1073,4 +1082,1793 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
 }
 
 
+/* ATOM HEART MOTHER */
 
+
+.square4 {
+   position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square4:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv4 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 100%;
+    left: 250%;
+    z-index: 50;
+    background-image: url(../images/albums/atomheartmother.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(10deg);
+}
+
+
+#mydivheader4 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close4 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+/* THE WHO SELL OUT */
+
+
+.square5 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square5:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv5 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 55%;
+    left: 75%;
+    z-index: 50;
+    background-image: url(../images/albums/thewhosellout.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(2deg);
+}
+
+
+#mydivheader5 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close5 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+
+/* WHITE ALBUM */
+
+
+.square6 {
+   position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square6:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv6 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 40%;
+    left: 150%;
+    z-index: 50;
+    background-image: url(../images/albums/whitealbum.png) !important;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(-5deg);
+}
+
+
+#mydivheader6 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close6 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+/* LED ZEPPELIN */
+
+
+.square7 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square7:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv7 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 130%;
+    left: 320%;
+    z-index: 50;
+    background-image: url(../images/albums/ledzeppelin.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(5deg);
+}
+
+
+#mydivheader7 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close7 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+
+/* ABBEY ROAD */
+
+
+.square8 {
+   position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square8:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv8 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 20%;
+    left: 230%;
+    z-index: 50;
+    background-image: url(../images/albums/abbeyroad.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(-3deg);
+}
+
+
+#mydivheader8 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close8 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+/* LED ZEPPELIN III */
+
+
+.square9 {
+   position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square9:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv9 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 130%;
+    left: 40%;
+    z-index: 50;
+    background-image: url(../images/albums/ledzeppeliniii.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(-10deg);
+}
+
+
+#mydivheader9 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close9 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+/* UMMAGUMMA */
+
+
+.square10 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square10:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv10 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 125%;
+    left: 190%;
+    z-index: 50;
+    background-image: url(../images/albums/ummagumma.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(-4deg);
+}
+
+
+#mydivheader10 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close10 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+
+/* LET IT BLEED */
+
+
+.square11 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square11:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv11 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 155%;
+    left: 120%;
+    z-index: 50;
+    background-image: url(../images/albums/letitbleed.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(4deg);
+}
+
+
+#mydivheader11 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close11 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+
+/* STICKY FINGERS */
+
+
+.square12 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square12:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv12 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 20%;
+    left: 380%;
+    z-index: 50;
+    background-image: url(../images/albums/stickyfingers.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(-12deg);
+}
+
+
+#mydivheader12 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close12 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+
+/* LED ZEPPELIN IV */
+
+
+.square13 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square13:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv13 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 100%;
+    left: 380%;
+    z-index: 50;
+    background-image: url(../images/albums/ledzeppeliniv.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(1deg);
+}
+
+
+#mydivheader13 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close13 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+
+/* DARK SIDE OF THE MOON */
+
+
+.square14 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square14:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv14 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 175%;
+    left: 250%;
+    z-index: 50;
+    background-image: url(../images/albums/darksideofthemoon.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(12deg);
+}
+
+
+#mydivheader14 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close14 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+
+/* HOUSES OF THE HOLY */
+
+
+.square15 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square15:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv15 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 100%;
+    left: 70%;
+    z-index: 50;
+    background-image: url(../images/albums/housesoftheholy.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(-12deg);
+}
+
+
+#mydivheader15 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close15 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+/* ALADDIN SANE */
+
+
+.square16 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square16:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv16 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 25%;
+    left: 100%;
+    z-index: 50;
+    background-image: url(../images/albums/aladdinsane.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(-12deg);
+}
+
+
+#mydivheader16 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close16 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+/* PHYSICAL GRAFFITI */
+
+
+.square17 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square17:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv17 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 185%;
+    left:15%;
+    z-index: 50;
+    background-image: url(../images/albums/physicalgraffiti.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(8deg);
+}
+
+
+#mydivheader17 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close17 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+/* WISH YOU WERE HERE */
+
+
+.square18 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square18:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv18 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 230%;
+    left: 280%;
+    z-index: 50;
+    background-image: url(../images/albums/wishyouwerehere.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(-10deg);
+}
+
+
+#mydivheader18 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close18 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+/* GOD SAVE THE QUEEN */
+
+
+.square19 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square19:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv19 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 215%;
+    left: 160%;
+    z-index: 50;
+    background-image: url(../images/albums/godsavethequeen.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(-2deg);
+}
+
+
+#mydivheader19 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close19 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+/* NEVER MIND THE BOLLOCKS */
+
+
+.square20 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square20:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv20 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 184%;
+    left: 350%;
+    z-index: 50;
+    background-image: url(../images/albums/nevermindthebollocks.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(-7deg);
+}
+
+
+#mydivheader20 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close20 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+/* HORSES */
+
+
+.square21 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square21:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv21 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 100%;
+    left: 200%;
+    z-index: 50;
+    background-image: url(../images/albums/horses.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(-7deg);
+}
+
+
+#mydivheader21 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close21 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+/* PRESENCE */
+
+
+.square22 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square22:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv22 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 235%;
+    left: 80%;
+    z-index: 50;
+    background-image: url(../images/albums/presence.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(-7deg);
+}
+
+
+#mydivheader22 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close22 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+/* RAMONES */
+
+
+.square23 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square23:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv23 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 245%;
+    left: 210%;
+    z-index: 50;
+    background-image: url(../images/albums/ramones.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(7deg);
+}
+
+
+#mydivheader23 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close23 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+/* ANIMALS */
+
+
+.square24 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square24:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv24 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 240%;
+    left: 380%;
+    z-index: 50;
+    background-image: url(../images/albums/animals.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(5deg);
+}
+
+
+#mydivheader24 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close24 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+
+/* ORGASM ADDICT */
+
+
+.square25 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square25:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv25 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 225%;
+    left: 30%;
+    z-index: 50;
+    background-image: url(../images/albums/orgasmaddict.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(12deg);
+}
+
+
+#mydivheader25 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close25 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+/* UNKNOWN PLEASURES */
+
+
+.square26 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square26:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv26 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 280%;
+    left: 115%;
+    z-index: 50;
+    background-image: url(../images/albums/unknownpleasures.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(-7deg);
+}
+
+
+#mydivheader26 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close26 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+
+/* IN THROUGH THE OUTDOOR */
+
+
+.square27 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square27:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv27 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 300%;
+    left: 25%;
+    z-index: 50;
+    background-image: url(../images/albums/inthroughtheoutdoor-b.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(3deg);
+}
+
+
+#mydivheader27 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close27 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+
+/* THE WALL */
+
+
+.square28 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square28:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv28 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 100%;
+    left: 15%;
+    z-index: 50;
+    background-image: url(../images/albums/thewall.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(-8deg);
+}
+
+
+#mydivheader28 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close28 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+
+/* LONDON CALLING */
+
+
+.square29 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square29:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv29 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 300%;
+    left: 280%;
+    z-index: 50;
+    background-image: url(../images/albums/londoncalling.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(-5deg);
+}
+
+
+#mydivheader29 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close29 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+
+/* POWER CORRUPTION AND LIES */
+
+
+.square30 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square30:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv30 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 330%;
+    left: 200%;
+    z-index: 50;
+    background-image: url(../images/albums/powercorruptionandlies-hq.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(-3deg);
+}
+
+
+#mydivheader30 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close30 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+/* NEVER MIND */
+
+
+.square31 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square31:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv31 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 330%;
+    left: 360%;
+    z-index: 50;
+    background-image: url(../images/albums/nevermind.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(3deg);
+}
+
+
+#mydivheader31 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close31 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+
+/* DOOKIE */
+
+
+.square32 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square32:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv32 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 190%;
+    left: 390%;
+    z-index: 50;
+    background-image: url(../images/albums/dookie.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(-13deg);
+}
+
+
+#mydivheader32 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close32 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+
+/* ENEMA OF THE STATE */
+
+
+.square33 {
+  position: absolute;
+  width: 20%;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+.square33:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+    border: none;
+
+}
+
+#mydiv33 {
+    position: absolute;
+    width: 100%;
+  height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+    min-width: 75px;
+    min-height: 75px;
+    top: 330%;
+    left: 110%;
+    z-index: 50;
+    background-image: url(../images/albums/enemaofthestate.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    border: none;
+    transform: rotate(-12deg);
+}
+
+
+#mydivheader33 {
+    padding: 50%;
+    cursor: move;
+    z-index: 51;
+    background-color: #2196F3;
+    opacity: 0;
+    color: #fff;
+}
+
+
+#button-close33 {
+    display: block;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+    right: -50%;  
+}
+
+
+#container {
+    display: block;
+    width: 100%;
+   
+    overflow: hidden;
+}
