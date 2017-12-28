@@ -899,9 +899,31 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
  Example markup <div id="myModal" class="reveal-modal"> <h2>Awesome. I have it.</h2> <p class="lead">Your couch.  I it's mine.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p> <a class="close-reveal-modal">&#215;</a> </div> */
 
 
+@font-face {
+    font-family: 'averta';
+    src: url('../fonts/avertademopecutteddemo-regular-webfont.woff2') format('woff2'),
+         url('../fonts/avertademopecutteddemo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'camptonbold';
+    src: url('../fonts/campton-bolddemo-webfont.woff2') format('woff2'),
+         url('../fonts/campton-bolddemo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 
 #main-frame {
-    background-color: aqua;
+    
     width: 100%;
     height: 90vw;
     max-height: 1150px !important;
@@ -910,8 +932,19 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     
 }
 
+#main-frame-sort {
+    
+    width: 100%;
+    height: 90vw;
+    max-height: 1150px !important;
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: #ededee;
+    
+}
+
 #main-frame-pink {
-    background-color: lightcoral;
+    
     width: 100%;
     height: auto;
     min-height: 500px !important;
@@ -922,16 +955,17 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
 
 
 #main-body {
-    background-color: lightcoral;
+    
     width: 100%;
     height: auto;
     max-width: 1300px;
     margin: 0 auto;
+    position: relative;
     
 }
 
 #header {
-    background-color: blueviolet;
+    
     width: 100%;
     height: auto;
     max-width: 1300px;
@@ -941,16 +975,27 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
 
 
 #title-home {
+    padding-left: 5px;
     width: 30%;
-    padding-left: 20px;
-    max-width: 330px;
-    min-width: 300px;
+    height: 120px;
+    max-width: 400px;
+    min-width: 350px;
     font-size: 2em;
     text-align: left;
     font-weight: 700;
-    background-color: aquamarine;
+    font-family: 'camptonbold';
+    color: #565778;
 }
 
+
+
+
+.image-off, #title-home:hover .image-on{
+   display:none
+}
+.image-on, #title-home:hover .image-off{
+   display:block
+}
 
 #about {
     width: 20%;
@@ -963,8 +1008,27 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     font-weight: 600;
     text-align: right;
     padding-right: 20px;
-    background-color: chartreuse;
-    line-height: 30px;
+    line-height: 40px;
+    font-family: 'averta';
+    color: #565778;
+    
+    
+}
+
+#about-selected {
+    width: 20%;
+    position: relative;
+    right: 0px;
+    max-width: 100px;
+    min-width: 70px;
+    float: right;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    font-family: 'averta';
+    color: #46c1c2;
     
     
 }
@@ -981,8 +1045,26 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     font-weight: 600;
     text-align: right;
     padding-right: 20px;
-    background-color: blue;
-    line-height: 30px;
+    line-height: 40px;
+    font-family: 'averta';
+    color: #565778;
+    
+    
+}
+
+#punk-selected {
+    width: 15%;
+    position: relative;
+    max-width: 100px;
+    min-width: 70px;
+    float: right;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    font-family: 'averta';
+    color: #46c1c2;
     
     
 }
@@ -998,8 +1080,26 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     font-weight: 600;
     text-align: right;
     padding-right: 20px;
-    background-color: darkcyan;
-    line-height: 30px;
+    line-height: 40px;
+    font-family: 'averta';
+    color: #565778;
+    
+    
+}
+
+#rock-selected {
+    width: 15%;
+    position: relative;
+    max-width: 100px;
+    min-width: 70px;
+    float: right;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    font-family: 'averta';
+    color: #46c1c2;
     
     
 }
@@ -1015,8 +1115,25 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     font-weight: 600;
     text-align: right;
     padding-right: 10px;
-    background-color: darkorange;
-    line-height: 30px;
+    line-height: 40px;
+    font-family: 'averta';
+    color: #565778;
+    
+}
+
+#filter-collection-selected {
+    width: 20%;
+    position: relative;
+    max-width: 250px;
+    min-width: 230px;
+    float: right;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 40px;
+    font-family: 'averta';
+   color: #46c1c2;
     
 }
 
@@ -1030,71 +1147,207 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     font-weight: 600;
     text-align: right;
     padding-right: 10px;
-    background-color: floralwhite;
-    line-height: 30px;
+    line-height: 40px;
+    font-family: 'averta';
+    color: #565778;
+    
+}
+
+#explore-collection-selected {
+    width: 20%;
+    position: relative;
+    max-width: 230px;
+    min-width: 210px;
+    float: right;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 40px;
+    font-family: 'averta';
+    color: #46c1c2;
     
 }
 
 
 #title-home a, #about a, #punk a, #rock a, #sort-collection a, #filter-collection a, #explore-collection a{
-    color: black;
+    color: #565778;
     
 }
 
-#title-home a:hover, #about a:hover, #punk a:hover, #rock a:hover, #sort-collection a:hover, #filter-collection a:hover, #explore-collection a:hover{
-    color: darkturquoise;
+#explore-collection-selected a, #rock-selected a, #punk-selected a, #filter-collection-selected a, #about-selected a{
+    color: #46c1c2;
+    
+}
+
+#title-home a:hover, #about a:hover, #punk a:hover, #rock a:hover, #sort-collection a:hover, #filter-collection a:hover, #explore-collection a:hover, #explore-collection-selected a:hover, #rock-selected a:hover, #punk-selected a:hover, #filter-collection-selected a:hover, #about-selected a:hover{
+    color: #e27985;
+    
+}
+
+#explanation-explore {
+    padding: 5px;
+    display: block;
+    position: absolute;
+    right: 0px;    
+    width:60%;
+    max-width: 550px;
+    min-width: 400px;
+    font-family: 'averta';
+    color: #565778;
+    line-height: 24px;
+    text-align: right;
+    font-size: 17px;
+    border-bottom: 7px solid #565778;
     
 }
 
 #rock-title {
     
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 700;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'camptonbold';
+    color: #e27985;
 }
 
-#rock-text {
+#about-title {
     
-    max-width: 850px;
-    font-size: 18px;
-    padding-left: 30px;
-    padding-right: 30px;
-    
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'camptonbold';
+    color: #565778;
 }
 
 
 #punk-title {
     
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 700;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'camptonbold';
+    color: #46c1c2;
+}
+
+#rock-main-frame {
+    width: 100%;
+    
+    
+}
+
+#rock-text {
+    
+    width: 60%;
+    max-width: 780px;
+    padding: 30px;
+    float: left;
+    background-color: #a7dcdc;
+    font-family: 'averta';
+    font-size: 18px;
+    line-height: 22px;
+    color: #565778;
+    
 }
 
 #punk-text {
     
-    max-width: 850px;
+    width: 60%;
+    max-width: 780px;
+    padding: 30px;
+    float: left;
+    background-color: #f1c0c9;
+    font-family: 'averta';
     font-size: 18px;
-    padding-left: 30px;
-    padding-right: 30px;
-    
-    
+    line-height: 22px;
+    color: #565778;
     
 }
 
-#about-title {
-    
-    font-size: 30px;
-    font-weight: 700;
-    padding-left: 30px;
-    padding-right: 30px;
-}
 
 #about-text {
     
-    max-width: 850px;
+    width: 60%;
+    max-width: 780px;
+    padding: 30px;
+    float: left;
+    background-color: #ededee;
+    font-family: 'averta';
     font-size: 18px;
-    padding-left: 30px;
-    padding-right: 30px;
+    line-height: 22px;
+    color: #565778;
+    
+}
+
+
+
+#rock-image {
+    
+    width: 40%;
+    min-width: 350px;
+    max-width: 520px;
+    padding: 30px;
+    float: left;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 875px) {
+   
+    #rock-text {
+    
+    width: 100%;
+   max-width: none;
+    padding: 30px;
+    float: left;
+    background-color: #a7dcdc;
+    font-family: 'averta';
+    font-size: 15px;
+    line-height: 20px;
+    color: #565778;
+    
+}
+    
+     #punk-text {
+    
+    width: 100%;
+   max-width: none;
+    padding: 30px;
+    float: left;
+    background-color: #f1c0c9;
+    font-family: 'averta';
+    font-size: 15px;
+    line-height: 20px;
+    color: #565778;
+    
+}
+    
+    
+    #rock-image {
+    
+    width: 100%;
+    min-width: 350px;
+    max-width: none;
+    padding: 30px;
+    float: left;
+    
+   
+    
+}
+    
+    
+   
+    
+    
 }

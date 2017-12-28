@@ -899,9 +899,30 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
  Example markup <div id="myModal" class="reveal-modal"> <h2>Awesome. I have it.</h2> <p class="lead">Your couch.  I it's mine.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p> <a class="close-reveal-modal">&#215;</a> </div> */
 
 
+@font-face {
+    font-family: 'averta';
+    src: url('../fonts/avertademopecutteddemo-regular-webfont.woff2') format('woff2'),
+         url('../fonts/avertademopecutteddemo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'camptonbold';
+    src: url('../fonts/campton-bolddemo-webfont.woff2') format('woff2'),
+         url('../fonts/campton-bolddemo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 
 #main-frame {
-    background-color: aqua;
     width: 100%;
     height: auto;
   
@@ -918,7 +939,7 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     margin: 0 auto;
     width: 75%;
     height: 60vw;
-    background-color: aquamarine;
+    background-color: #ededee;
 }
 
 
@@ -929,12 +950,16 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     margin: 0 auto;
     width: 75%;
     max-width: 1300px;
+    min-height: 80px;
     text-align: left;
-    height: 8vw;
-    line-height: 8vw;
-    background-color: blue;
-    font-family: sans-serif;
+    height: auto;
+    line-height: 45px;
+
+    font-family: 'camptonbold';
     font-size: 40px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    color: #565778;
     
 }
 
@@ -944,21 +969,20 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     width: 75%;
     height: auto;
     margin: 0 auto;
-    background-color: fuchsia;
-    
+ 
+
 }
 
 #album-text-details {
     display: block;
     position: relative;
     left: 0px;
-    width: 35%;
+    width: 100%;
     height: auto;
     text-align: left;
-    font-family: sans-serif;
-    font-size: 25px;
-    line-height: 10px;
-    background-color: coral;
+    color: #565778;
+    font-family: 'averta';
+    font-size: 23px;
     
 }
 
@@ -969,9 +993,11 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     width: 100%;
     height: auto;
     text-align: left;
-    font-family: sans-serif;
+    font-family: 'averta';
     font-size: 18px;
-    background-color: azure;
+    line-height: 25px;
+    color: #565778;
+  
     
 }
 
