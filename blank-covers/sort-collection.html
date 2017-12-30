@@ -10,7 +10,7 @@
   <title>the punk rock effect</title>
 
   <!-- Included CSS Files -->
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
  
 
   <!--[if lt IE 9]>
@@ -36,7 +36,12 @@
 <script type="text/javascript" src="https://ritacprates.github.io/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 
 <link rel="stylesheet" href="https://ritacprates.github.io/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
-<script type="text/javascript" src="https://ritacprates.github.io/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>    
+<script type="text/javascript" src="https://ritacprates.github.io/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>  
+    
+    
+         
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css'>
+<link rel='stylesheet prefetch' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/skeleton.2.02.css'>
         
 
 
@@ -51,33 +56,226 @@
 <div id="main-body">
     <div id="header">
     <div id="title-home"><br>
-           <a href="index.html"><img class="image-on" src="images/logo-title.png" width="100%">  <img class="image-off" src="images/logo-title-hover.png" width="100%"> </a></div><br><br>
-   <div id="about"><a href="about.html">sobre</a></div>  <div id="punk"><a href="punk.html">punk</a></div><div id="rock"> <a href="rock.html"> rock</a></div><div id="filter-collection-selected"><a href="sort-collection.html">colecção organizada</a></div><div id="explore-collection"><a href="explore-collection.html">explorar colecção</a></div>
+           <a href="../index.html"><img class="image-on" src="images/logo-title.png" width="100%">  <img class="image-off" src="images/logo-title-hover.png" width="100%"> </a></div><br><br>
+   <div id="about"><a href="about.html">sobre</a></div> <div id="filter-collection-selected"><a href="sort-collection.html">colecção organizada</a></div><div id="explore-collection"><a href="explore-collection.html">explorar colecção</a></div>
 	
 	<br><br><br>
         </div>
-<br><br><br><br><br><br><br>
-	<div id="explanation-explore">Aqui podes filtrar e organizar as capas segundo vários critérios à tua escolha. Se quiseres saber mais sobre uma capa, clica no botão no canto superior direito.</div>
+<br><br><br>
+	<div id="explanation-explore">Aqui podes filtrar e organizar as capas segundo vários critérios à tua escolha. Se quiseres saber mais sobre uma capa, clica na imagem.</div>
 	
-    <br><br><br><br><br><br><br><br><br><br>
-    <div id="main-frame-sort" class="video-container">
+    <br><br><br><br><br>
+    <div style="position: relative; left: 0px !important"> 
+   
+     
+    <h4><span style="font-family: 'averta'; color: #565778; border-bottom: 4px solid #565778;">Filtrar</span> </h4>
+     
+  
+
+  
+      
+        <div class="programs">
+          <button class="filter-btn" style="text-transform: none !important; border-right: 4px solid #565778 !important; border-radius: 0px !important;" data-filter="all"><b>Todos</b></button>
+          <button class="filter-btn" style="text-transform: none !important; border-right: 4px solid #565778 !important; border-radius: 0px !important;" data-filter=".sixties"><b>60s</b></button>
+          <button class="filter-btn" style="text-transform: none !important; border-right: 4px solid #565778 !important; border-radius: 0px !important;" data-filter=".seventies"><b>70s</b></button>
+          <button class="filter-btn" style="text-transform: none !important; border-right: 4px solid #565778 !important; border-radius: 0px !important;" data-filter=".eighties"><b>80s</b></button>
+             <button class="filter-btn" style="text-transform: none !important;" data-filter=".nineties"><b>90s</b></button>
             
+        </div>
+     
+      
+         
+      
+   
+    </div>
+    <br>
+
+    <div style="position: relative; left: 0px !important;">
+    
+    
+      
+        <h4><span style="font-family: 'averta'; color: #565778; border-bottom: 4px solid #565778;">Organizar</span></h4>
+      
+  
+      
+        <div id="desktop-sort" class="programs">
+          <button class="sort-btn" style="text-transform: none !important; border-right: 4px solid #565778 !important; border-radius: 0px !important;" data-sort="order:asc"><b>Cronologicamente</b></button>
+              <button class="sort-btn" style="text-transform: none !important; border-right: 4px solid #565778 !important; border-radius: 0px !important;" data-sort="random"><b>Aleatório</b></button>
+          <button class="sort-btn" style="text-transform: none !important; line-height: 20px !important; border-right: 4px solid #565778 !important; border-radius: 0px !important;" data-sort="name:asc"><b>Alfabeticamente<br>(banda)</b></button>
+          <button class="sort-btn" style="text-transform: none !important; line-height: 20px !important;" data-sort="namealbum:asc"><b>Alfabeticamente<br>(álbum)</b></button>
+          
+        </div>
+        
+          <div id="mobile-sort" class="programs">
+          <button class="sort-btn" style="text-transform: none !important; border-right: 4px solid #565778 !important; border-radius: 0px !important; border-bottom: 4px solid #565778 !important;" data-sort="order:asc"><b>Cronologicamente</b></button>
+              <button class="sort-btn" style="text-transform: none !important; border-bottom: 4px solid #565778 !important;" data-sort="random"><b>Aleatório</b></button>
+          <button class="sort-btn" style="text-transform: none !important; line-height: 20px !important; border-right: 4px solid #565778 !important; border-radius: 0px !important;" data-sort="name:asc"><b>Alfabeticamente<br>(banda)</b></button>
+          <button class="sort-btn" style="text-transform: none !important; line-height: 20px !important;" data-sort="namealbum:asc"><b>Alfabeticamente<br>(álbum)</b></button>
+          
+        </div>
+     
+    </div><!-- end of row -->
+        
+        
+    
+    <div id="main-frame-sort" class="video-container">
+         
+      
+ 
+       <div class="courses" id="mix-wrapper">
+       
+  <!-- 1st row verticaly centered text in the square columns -->
+ 
+ <div class="square-filter img_1-1 mix-target sixties rock fotografia" data-order="1" data-year="4" data-name="beatles" data-namealbum="sargeant_peppers" style="cursor: pointer !important" id="fancybox-manual">
+</div>
+           
+<div class="square-filter img_1-2 mix-target sixties rock fotografia" data-order="2" data-year="2" data-name="rollingstones" data-namealbum="their_satanic" style="cursor: pointer !important" id="fancybox-manual-2">
+</div>
+           
+<div class="square-filter img_1-3 mix-target sixties rock fotografia" data-order="3" data-year="1" data-name="who" data-namealbum="the_whosell" style="cursor: pointer !important" id="fancybox-manual-3">
+</div>
+           
+<div class="square-filter img_1-4 mix-target sixties rock" data-order="4" data-year="1" data-name="beatlesa" data-namealbum="the_beatles" style="cursor: pointer !important" id="fancybox-manual-4">
+</div>
+
+<!-- 2nd row verticaly centered images in square columns -->
+
+<div class="square-filter img_2-1 mix-target sixties rock ilustracao" data-order="5" data-year="3" data-name="ledzeppelin" data-namealbum="led_zeppelin" style="cursor: pointer !important" id="fancybox-manual-5">
+</div>
+           
+<div class="square-filter img_2-2 mix-target sixties rock ilustracao" data-order="6" data-year="3" data-name="whoa" data-namealbum="tommy" style="cursor: pointer !important" id="fancybox-manual-6">
+</div>
+           
+<div class="square-filter img_2-3 mix-target sixties rock fotografia" data-order="7" data-year="4" data-name="beatlesb" data-namealbum="abbey_road" style="cursor: pointer !important" id="fancybox-manual-7">
+</div>
+           
+<div class="square-filter img_2-4 mix-target sixties rock fotografia" data-order="8" data-year="4" data-name="pinkfloyd" data-namealbum="ummagumma" style="cursor: pointer !important" id="fancybox-manual-8">
+</div>
+
+<!-- 3rd row responsive images in background with centered content -->
+
+<div class="square-filter img_3-1 mix-target sixties rock fotografia" data-order="9" data-year="3" data-name="rollingstonesa" data-namealbum="let_it_bleed" style="cursor: pointer !important" id="fancybox-manual-9">
+</div>
+           
+<div class="square-filter img_3-2 mix-target seventies rock fotografia" data-order="10" data-year="4" data-name="pinkfloyda" data-namealbum="atom_heart_mother" style="cursor: pointer !important" id="fancybox-manual-10">
+</div>
+           
+<div class="square-filter img_3-3 mix-target seventies rock ilustracao" data-order="11" data-year="5" data-name="ledzeppelina" data-namealbum="led_zeppelin_iii" style="cursor: pointer !important" id="fancybox-manual-11">
+</div>
+           
+<div class="square-filter img_3-4 mix-target seventies rock fotografia" data-order="12" data-year="5" data-name="rollingstonesb" data-namealbum="sticky_fingers" style="cursor: pointer !important" id="fancybox-manual-12">
+</div>
+           
+           
+<!-- 4th row responsive images in background with centered content -->
+
+<div class="square-filter img_4-1 mix-target seventies rock fotografia" data-order="13" data-year="3" data-name="ledzeppelinb" data-namealbum="untitled" style="cursor: pointer !important" id="fancybox-manual-13">
+</div>
+           
+<div class="square-filter img_4-2 mix-target seventies rock ilustracao" data-order="14" data-year="4" data-name="pinkfloydb" data-namealbum="dark_side_of_the_moon" style="cursor: pointer !important" id="fancybox-manual-14">
+</div>
+           
+<div class="square-filter img_4-3 mix-target seventies rock fotografia" data-order="15" data-year="5" data-name="ledzeppelinc" data-namealbum="houses_of_the_holy" style="cursor: pointer !important" id="fancybox-manual-15">
+</div>
+           
+<div class="square-filter img_4-4 mix-target seventies rock fotografia" data-order="16" data-year="5" data-name="davidbowie" data-namealbum="aladdin_sane" style="cursor: pointer !important" id="fancybox-manual-16">
+</div>
+           
+           
+
+           
+<!-- 5th row responsive images in background with centered content -->
+
+<div class="square-filter img_5-1 mix-target seventies rock fotografia" data-order="17" data-year="3" data-name="ledzeppelind" data-namealbum="physical_graffiti" style="cursor: pointer !important" id="fancybox-manual-17">
+</div>
+           
+<div class="square-filter img_5-2 mix-target seventies rock fotografia" data-order="18" data-year="4" data-name="pinkfloydc" data-namealbum="wish_you_were_here" style="cursor: pointer !important" id="fancybox-manual-18">
+</div>
+           
+<div class="square-filter img_5-3 mix-target seventies rock fotografia" data-order="20" data-year="5" data-name="ledzeppeline" data-namealbum="presence" style="cursor: pointer !important" id="fancybox-manual-19">
+</div>
+           
+<div class="square-filter img_5-4 mix-target seventies rock fotografia" data-order="22" data-year="5" data-name="pinkfloydd" data-namealbum="animals" style="cursor: pointer !important" id="fancybox-manual-20">
+</div>
+           
+    
+           
+           
+<!-- 6th row responsive images in background with centered content -->
+
+<div class="square-filter img_6-1 mix-target seventies rock fotografia" data-order="27" data-year="3" data-name="ledzeppelinf" data-namealbum="in_through_the_out_door" style="cursor: pointer !important" id="fancybox-manual-21">
+</div>
+           
+<div class="square-filter img_6-2 mix-target seventies rock ilustracao" data-order="28" data-year="4" data-name="pinkfloyde" data-namealbum="the_wall" style="cursor: pointer !important" id="fancybox-manual-22">
+</div>
+           
+<div class="square-filter img_6-3 mix-target seventies punk fotografia" data-order="19" data-year="5" data-name="pattismith" data-namealbum="horses" style="cursor: pointer !important" id="fancybox-manual-23">
+</div>
+           
+<div class="square-filter img_6-4 mix-target seventies punk fotografia" data-order="21" data-year="5" data-name="ramones" data-namealbum="ramones" style="cursor: pointer !important" id="fancybox-manual-24">
+</div>
+         
+           
+           
+           
+           
+<!-- 7th row responsive images in background with centered content -->
+
+<div class="square-filter img_7-1 mix-target seventies punk ilustracao" data-order="23" data-year="3" data-name="sexpistols" data-namealbum="god_save_the_queen" style="cursor: pointer !important" id="fancybox-manual-25">
+</div>
+           
+<div class="square-filter img_7-2 mix-target seventies punk ilustracao" data-order="24" data-year="4" data-name="sexpistolsa" data-namealbum="never_mind_the_bollocks" style="cursor: pointer !important" id="fancybox-manual-26">
+</div>
+           
+<div class="square-filter img_7-3 mix-target seventies punk ilustracao" data-order="25" data-year="5" data-name="buzzcocks" data-namealbum="orgasm_addict" style="cursor: pointer !important" id="fancybox-manual-27">
+</div>
+           
+<div class="square-filter img_7-4 mix-target seventies punk ilustracao" data-order="26" data-year="5" data-name="joydivision" data-namealbum="unknown_pleasures" style="cursor: pointer !important" id="fancybox-manual-28">
+</div>
+         
+           
+           
+           
+<!-- 8th row responsive images in background with centered content -->
+
+<div class="square-filter img_8-1 mix-target seventies punk fotografia" data-order="29" data-year="3" data-name="clash" data-namealbum="london_calling" style="cursor: pointer !important" id="fancybox-manual-29">
+</div>
+           
+<div class="square-filter img_8-2 mix-target eighties punk ilustracao" data-order="30" data-year="4" data-name="neworder" data-namealbum="power_corruption_and_lies" style="cursor: pointer !important" id="fancybox-manual-30">
+</div>
+           
+<div class="square-filter img_8-3 mix-target nineties punk fotografia" data-order="31" data-year="5" data-name="nirvana" data-namealbum="nevermind" style="cursor: pointer !important" id="fancybox-manual-31">
+</div>
+           
+<div class="square-filter img_8-4 mix-target nineties punk ilustracao" data-order="32" data-year="5" data-name="greenday" data-namealbum="dookie" style="cursor: pointer !important" id="fancybox-manual-32">
+</div>
+           
+                      
+<!-- 9th row responsive images in background with centered content -->
+
+<div class="square-filter img_9-1 mix-target nineties punk fotografia" data-order="33" data-year="3" data-name="blink182" data-namealbum="enema_of_the_state" style="cursor: pointer !important" id="fancybox-manual-33">
+</div>
+           
+
+           
+      </div>  
      
 </div>
         
    </div>         
 	<br><br><br><br>
+    <div class="row"></div><br><br>
 	<div class="row">
 		<div class="twelve columns">
 		<p align="center" style="font-family: 'averta'; color: #565778;">©2017 Rita Prates</p>
 		</div>
 	</div>
     
-     <script type="text/javascript">
+        <script type="text/javascript">
         $(document).ready(function() {
             $("#fancybox-manual").click(function() {
                 $.fancybox.open({
-                    href : 'album-details-tommy.html',
+                    href : 'album-details-sgt-peppers.html',
                     type : 'iframe',
                     padding : 5
                 });
@@ -90,7 +288,7 @@
         $(document).ready(function() {
             $("#fancybox-manual-2").click(function() {
                 $.fancybox.open({
-                    href : 'album-details-tommy.html',
+                    href : 'album-details-satanic-majesties.html',
                     type : 'iframe',
                     padding : 5
                 });
@@ -103,6 +301,46 @@
         $(document).ready(function() {
             $("#fancybox-manual-3").click(function() {
                 $.fancybox.open({
+                    href : 'album-details-the-who-sell-out.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+    
+      <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-4").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-white-album.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+      <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-5").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-led-zeppelin.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+         <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-6").click(function() {
+                $.fancybox.open({
                     href : 'album-details-tommy.html',
                     type : 'iframe',
                     padding : 5
@@ -111,5 +349,369 @@
 
         });
     </script>
+    
+    
+      <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-7").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-abbey-road.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+    
+      <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-8").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-ummagumma.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+      <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-9").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-let-it-bleed.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+      <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-10").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-atom-heart-mother.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+      <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-11").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-led-zeppelin-iii.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+     <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-12").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-sticky-fingers.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+    
+     <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-13").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-led-zeppelin-iv.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+     <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-14").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-dark-side-of-the-moon.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+     <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-15").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-houses-of-the-holy.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+    
+     <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-16").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-aladdin-sane.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+    
+     <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-17").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-physical-graffiti.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+     <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-18").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-wish-you-were-here.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+     <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-19").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-presence.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+     <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-20").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-animals.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+     <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-21").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-in-through-the-out-door.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+         <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-22").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-the-wall.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+     <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-23").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-horses.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+      
+    
+         <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-24").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-ramones.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+         <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-25").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-god-save-the-queen.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+         <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-26").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-never-mind-the-bollocks.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+         <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-27").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-orgasm-addict.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+         <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-28").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-unknown-pleasures.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+         <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-29").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-london-calling.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+         <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-30").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-power-corruption-lies.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+         <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-31").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-nevermind.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+         <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-32").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-dookie.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+         <script type="text/javascript">
+        $(document).ready(function() {
+            $("#fancybox-manual-33").click(function() {
+                $.fancybox.open({
+                    href : 'album-details-enema-of-the-state.html',
+                    type : 'iframe',
+                    padding : 5
+                });
+            });
+
+        });
+    </script>
+    
+    
+     <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/mixitup.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
     
 </body>
