@@ -934,12 +934,11 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
 
 #main-frame-sort {
     
+    display: block;
     width: 100%;
-    height: 90vw;
-    max-height: 1150px !important;
-    max-width: 1300px;
+    height: auto;
     margin: 0 auto;
-    background-color: #ededee;
+  
     
 }
 
@@ -1299,6 +1298,246 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
 
 
 
+.square-filter {
+    float:left;
+    position: relative;
+    width: 21% !important;
+    padding-bottom : 21% !important; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+}
+
+.img_1-1{background-image:url(../images/albums/sgt-peppers.jpg)!important;}
+
+.img_1-2{background-image:url(../images/albums/satanic-majesties.jpg) !important;}
+
+.img_1-3{background-image:url(../images/albums/thewhosellout.jpg)!important;}
+
+.img_1-4{background-image:url(../images/albums/whitealbum.png)!important;}
+
+
+.img_2-1{background-image:url(../images/albums/ledzeppelin.jpg)!important;}
+
+.img_2-2{background-image:url(../images/albums/tommy.jpg)!important;}
+
+.img_2-3{background-image:url(../images/albums/abbeyroad.jpg)!important;}
+
+.img_2-4{background-image:url(../images/albums/ummagumma-hq.jpg)!important;}
+
+.img_3-1{background-image:url(../images/albums/letitbleed.jpg)!important;}
+
+.img_3-2{background-image:url(../images/albums/atomheartmother.png)!important;}
+
+.img_3-3{background-image:url(../images/albums/ledzeppeliniii.jpg)!important;}
+
+.img_3-4{background-image:url(../images/albums/stickyfingers.jpg)!important;}
+
+.img_4-1{background-image:url(../images/albums/ledzeppeliniv.jpg)!important;}
+
+.img_4-2{background-image:url(../images/albums/darksideofthemoon.jpg) !important;}
+
+.img_4-3{background-image:url(../images/albums/housesoftheholy.jpg)!important;}
+
+.img_4-4{background-image:url(../images/albums/aladdinsane.jpg)!important;}
+
+
+.img_5-1{background-image:url(../images/albums/physicalgraffiti.jpg)!important;}
+
+.img_5-2{background-image:url(../images/albums/wishyouwerehere.jpg)!important;}
+
+.img_5-3{background-image:url(../images/albums/presence.jpg)!important;}
+
+.img_5-4{background-image:url(../images/albums/animals.jpg)!important;}
+
+.img_6-1{background-image:url(../images/albums/inthroughtheoutdoor-b.jpg)!important;}
+
+.img_6-2{background-image:url(../images/albums/thewall.jpg)!important;}
+
+.img_6-3{background-image:url(../images/albums/horses.jpg)!important;}
+
+.img_6-4{background-image:url(../images/albums/ramones.jpg)!important;}
+
+.img_7-1{background-image:url(../images/albums/godsavethqueen.jpg)!important;}
+
+.img_7-2{background-image:url(../images/albums/nevermindthebollocks.jpg) !important;}
+
+.img_7-3{background-image:url(../images/albums/orgasmaddict.jpg)!important;}
+
+.img_7-4{background-image:url(../images/albums/unknownpleasures.png)!important;}
+
+
+.img_8-1{background-image:url(../images/albums/londoncalling.jpg)!important;}
+
+.img_8-2{background-image:url(../images/albums/powercorruptionandlies-hq.png)!important;}
+
+.img_8-3{background-image:url(../images/albums/nevermind.jpg)!important;}
+
+.img_8-4{background-image:url(../images/albums/dookie.jpg)!important;}
+
+.img_9-1{background-image:url(../images/albums/enemaofthestate.jpg)!important;}
+
+
+
+
+
+li {
+	margin: 0;
+}
+
+.programs,
+.courses {
+	margin: 8px 0 0 0;
+}
+
+.programs {
+	font-size: 0;
+	margin-bottom: 15px;
+    font-family: 'averta';
+}
+
+.programs button {
+	outline: none;
+	margin-bottom: 0;
+	width: 50%;
+	height: auto;
+	font-weight: normal;
+	border: none !important;
+	color: #565778;
+	font-size: 18px !important;
+	padding: 4px 0;
+
+}
+
+.sort-btn {
+    min-height: 70px !important;
+    
+}
+
+
+.filter-btn {
+    width: 20% !important;
+    min-height: 50px !important;
+    
+}
+
+.filter-btn-big {
+    width: 25% !important;
+    min-height: 50px !important;
+    
+}
+
+
+
+.programs button:hover {
+	color:#e27985;
+}
+
+.programs button.programs-filter-btn-active,
+.programs button.programs-sort-btn-active {
+	
+	color: #46c1c2;
+}
+
+.courses {
+	margin-bottom: 15px;
+	font-size: 0;
+	background: whitesmoke;
+}
+
+.courses li {
+	text-align: center;
+	font-size: 14px;
+	display: inline-block;
+	width: 46%;
+	margin: 0 2%;
+}
+
+.courses a {
+	display: block;
+	height: 60px;
+	margin: 15px 0;
+	padding-top: 12.5px;
+	background: whitesmoke;
+	color: black;
+	border: 1px solid white;
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+.courses a:hover {
+	background: #99cfe0;
+}
+
+
+#desktop-sort {
+    
+    display: none !important;
+}
+
+#mobile-sort {
+    
+    display: block !important;
+}
+
+
+/* MEDIA QUERIES STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media only screen and (min-width: 750px) {
+
+	.container {
+		width: 95%;
+	}
+
+	.courses a {
+		background: #EBEBEB;
+		border: none;
+	}
+
+    .courses {
+        display: block !important;
+    }
+
+
+	.programs {
+		margin-bottom: 0;
+	}
+
+	.programs button {
+		width: 25%;
+		margin-bottom: 15px;
+	}
+
+	.courses li {
+		width: 21%;
+	}
+
+    #desktop-sort {
+    
+    display: block !important;
+}
+
+#mobile-sort {
+    
+    display: none !important;
+}
+    
+    
+}
+
+
+
+@media only screen and (max-width: 750px) {
+ 
+    .programs button {
+		font-size: 15px !important;
+	}
+    
+    
+}
+
 
 
 
@@ -1362,7 +1601,9 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
 }
     
     
-   
+    .courses {
+        display: block !important;
+    }
     
     
 }
