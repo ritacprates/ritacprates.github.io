@@ -1185,7 +1185,7 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
 }
 
 #explanation-explore {
-    padding: 5px;
+    padding-left: 10px;
     display: block;
     position: absolute;
     right: 0px;    
