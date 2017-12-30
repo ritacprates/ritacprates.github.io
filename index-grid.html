@@ -4,207 +4,88 @@
     
    
     
-       <link rel="stylesheet" href="css/styles.css">
+       <link rel="stylesheet" href="style-grid.css">
       
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css'>
 <link rel='stylesheet prefetch' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/skeleton.2.02.css'>
 
+      <link rel="stylesheet" href="css/style.css">
 
   </head>
   <body>
       
        <div class="row">
-      
-    <h4><span style="font-family: 'averta'; color: #565778; border-bottom: 4px solid #565778;">Filtrar</span> </h4>
-     
+      <div class="twelve columns">
+        <h4>Filtrar</h4>
+      </div>
     </div><!-- end of row -->
 
     <div class="row">
-      
+      <div class="twelve columns">
         <div class="programs">
-          <button class="filter-btn" style="text-transform: none !important; border-right: 4px solid #565778 !important; border-radius: 0px !important;" data-filter="all"><b>Todos</b></button>
-          <button class="filter-btn" style="text-transform: none !important; border-right: 4px solid #565778 !important; border-radius: 0px !important;" data-filter=".sixties"><b>60s</b></button>
-          <button class="filter-btn" style="text-transform: none !important; border-right: 4px solid #565778 !important; border-radius: 0px !important;" data-filter=".seventies"><b>70s</b></button>
-          <button class="filter-btn" style="text-transform: none !important; border-right: 4px solid #565778 !important; border-radius: 0px !important;" data-filter=".eighties"><b>80s</b></button>
-             <button class="filter-btn" style="text-transform: none !important;" data-filter=".nineties"><b>90s</b></button>
-            
+          <button class="filter-btn" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter=".undergraduate">60s</button>
+          <button class="filter-btn" data-filter=".graduate">70s</button>
+          <button class="filter-btn" data-filter=".phd">80s</button>
         </div>
-     
-      
-          <div class="programs">
-            
-             <button class="filter-btn-big" style="text-transform: none !important; border-right: 4px solid #565778 !important; border-radius: 0px !important;" data-filter=".rock"><b>Rock</b></button>
-              
-                <button class="filter-btn-big" style="text-transform: none !important; border-right: 4px solid #565778 !important; border-radius: 0px !important;" data-filter=".punk"><b>Punk</b></button>
-           
-             <button class="filter-btn-big" style="text-transform: none !important; border-right: 4px solid #565778 !important; border-radius: 0px !important;" data-filter=".fotografia"><b>Fotografia</b></button> 
-             <button class="filter-btn-big" style="text-transform: none !important;" data-filter=".ilustracao"><b>Ilustração</b></button>
-        </div>
-      
+      </div>
     </div><!-- end of row -->
 
     <div class="row">
-      
-        <h4><span style="font-family: 'averta'; color: #565778; border-bottom: 4px solid #565778;">Organizar</span></h4>
-      
+      <div class="columns twelve">
+        <h4>Organizar</h4>
+      </div>
     </div><!-- end of row -->
 
     <div class="row">
-      
-        <div id="desktop-sort" class="programs">
-          <button class="sort-btn" style="text-transform: none !important; border-right: 4px solid #565778 !important; border-radius: 0px !important;" data-sort="order:asc"><b>Cronologicamente</b></button>
-              <button class="sort-btn" style="text-transform: none !important; border-right: 4px solid #565778 !important; border-radius: 0px !important;" data-sort="random"><b>Aleatório</b></button>
-          <button class="sort-btn" style="text-transform: none !important; line-height: 20px !important; border-right: 4px solid #565778 !important; border-radius: 0px !important;" data-sort="name:asc"><b>Alfabeticamente<br>(banda)</b></button>
-          <button class="sort-btn" style="text-transform: none !important; line-height: 20px !important;" data-sort="namealbum:asc"><b>Alfabeticamente<br>(álbum)</b></button>
-          
+      <div class="columns twelve">
+        <div class="programs">
+          <button class="sort-btn" data-sort="order:asc">Cronologicamente</button>
+          <button class="sort-btn" data-sort="name:asc">Alfabeticamente (banda)</button>
+          <button class="sort-btn" data-sort="name-album:asc">Alfabeticamente (álbum)</button>
+            <button class="sort-btn" data-sort="random">Aleatório</button>
         </div>
-        
-          <div id="mobile-sort" class="programs">
-          <button class="sort-btn" style="text-transform: none !important; border-right: 4px solid #565778 !important; border-radius: 0px !important; border-bottom: 4px solid #565778 !important;" data-sort="order:asc"><b>Cronologicamente</b></button>
-              <button class="sort-btn" style="text-transform: none !important; border-bottom: 4px solid #565778 !important;" data-sort="random"><b>Aleatório</b></button>
-          <button class="sort-btn" style="text-transform: none !important; line-height: 20px !important; border-right: 4px solid #565778 !important; border-radius: 0px !important;" data-sort="name:asc"><b>Alfabeticamente<br>(banda)</b></button>
-          <button class="sort-btn" style="text-transform: none !important; line-height: 20px !important;" data-sort="namealbum:asc"><b>Alfabeticamente<br>(álbum)</b></button>
-          
-        </div>
-     
+      </div>
     </div><!-- end of row -->
  
-       <div class="courses" id="mix-wrapper">
+       <div class="twelve columns courses" id="mix-wrapper">
        
   <!-- 1st row verticaly centered text in the square columns -->
 
-<div class="square-filter img_1-1 mix-target sixties rock fotografia" data-order="1" data-year="4" data-name="beatles" data-namealbum="sargeant_peppers">
+<div class="square img_1-1 mix-target undergraduate" data-order="1" data-year="4">
+</div>
+<div class="square img_1-2 mix-target graduate" data-order="2" data-year="2">
+</div>
+<div class="square img_1-3 mix-target graduate" data-order="3" data-year="1">
 </div>
            
-<div class="square-filter img_1-2 mix-target sixties rock fotografia" data-order="2" data-year="2" data-name="rollingstones" data-namealbum="their_satanic">
-</div>
-           
-<div class="square-filter img_1-3 mix-target sixties rock fotografia" data-order="3" data-year="1" data-name="who" data-namealbum="the_whosell">
-</div>
-           
-<div class="square-filter img_1-4 mix-target sixties rock" data-order="4" data-year="1" data-name="beatlesa" data-namealbum="the_beatles">
+           <div class="square img_1-4 mix-target graduate" data-order="4" data-year="1">
 </div>
 
 <!-- 2nd row verticaly centered images in square columns -->
 
-<div class="square-filter img_2-1 mix-target sixties rock ilustracao" data-order="5" data-year="3" data-name="ledzeppelin" data-namealbum="led_zeppelin">
+<div class="square img_2-1 mix-target phd" data-order="5" data-year="3">
 </div>
-           
-<div class="square-filter img_2-2 mix-target sixties rock ilustracao" data-order="6" data-year="3" data-name="whoa" data-namealbum="tommy">
+<div class="square img_2-2 mix-target undergraduate" data-order="6" data-year="3">
 </div>
-           
-<div class="square-filter img_2-3 mix-target sixties rock fotografia" data-order="7" data-year="4" data-name="beatlesb" data-namealbum="abbey_road">
+<div class="square img_2-3 mix-target undergraduate" data-order="7" data-year="4">
 </div>
+
            
-<div class="square-filter img_2-4 mix-target sixties rock fotografia" data-order="8" data-year="4" data-name="pinkfloyd" data-namealbum="ummagumma">
+           <div class="square img_2-4 mix-target undergraduate" data-order="8" data-year="4">
 </div>
 
 <!-- 3rd row responsive images in background with centered content -->
 
-<div class="square-filter img_3-1 mix-target sixties rock fotografia" data-order="9" data-year="3" data-name="rollingstonesa" data-namealbum="let_it_bleed">
+<div class="square img_3-1 mix-target phd" data-order="9" data-year="3">
+</div>
+<div class="square img_3-2 mix-target undergraduate" data-order="10" data-year="4">
+</div>
+<div class="square img_3-3 mix-target undergraduate" data-order="11" data-year="5">
 </div>
            
-<div class="square-filter img_3-2 mix-target seventies rock fotografia" data-order="10" data-year="4" data-name="pinkfloyda" data-namealbum="atom_heart_mother">
+           <div class="square img_3-4 mix-target undergraduate" data-order="12" data-year="5">
 </div>
-           
-<div class="square-filter img_3-3 mix-target seventies rock ilustracao" data-order="11" data-year="5" data-name="ledzeppelina" data-namealbum="led_zeppelin_iii">
-</div>
-           
-<div class="square-filter img_3-4 mix-target seventies rock fotografia" data-order="12" data-year="5" data-name="rollingstonesb" data-namealbum="sticky_fingers">
-</div>
-           
-           
-<!-- 4th row responsive images in background with centered content -->
-
-<div class="square-filter img_4-1 mix-target seventies rock fotografia" data-order="13" data-year="3" data-name="ledzeppelinb" data-namealbum="untitled">
-</div>
-           
-<div class="square-filter img_4-2 mix-target seventies rock ilustracao" data-order="14" data-year="4" data-name="pinkfloydb" data-namealbum="dark_side_of_the_moon">
-</div>
-           
-<div class="square-filter img_4-3 mix-target seventies rock fotografia" data-order="15" data-year="5" data-name="ledzeppelinc" data-namealbum="houses_of_the_holy">
-</div>
-           
-<div class="square-filter img_4-4 mix-target seventies rock fotografia" data-order="16" data-year="5" data-name="davidbowie" data-namealbum="aladdin_sane">
-</div>
-           
-           
-
-           
-<!-- 5th row responsive images in background with centered content -->
-
-<div class="square-filter img_5-1 mix-target seventies rock fotografia" data-order="17" data-year="3" data-name="ledzeppelind" data-namealbum="physical_graffiti">
-</div>
-           
-<div class="square-filter img_5-2 mix-target seventies rock fotografia" data-order="18" data-year="4" data-name="pinkfloydc" data-namealbum="wish_you_were_here">
-</div>
-           
-<div class="square-filter img_5-3 mix-target seventies rock fotografia" data-order="20" data-year="5" data-name="ledzeppeline" data-namealbum="presence">
-</div>
-           
-<div class="square-filter img_5-4 mix-target seventies rock fotografia" data-order="22" data-year="5" data-name="pinkfloydd" data-namealbum="animals">
-</div>
-           
-    
-           
-           
-<!-- 6th row responsive images in background with centered content -->
-
-<div class="square-filter img_6-1 mix-target seventies rock fotografia" data-order="27" data-year="3" data-name="ledzeppelinf" data-namealbum="in_through_the_out_door">
-</div>
-           
-<div class="square-filter img_6-2 mix-target seventies rock ilustracao" data-order="28" data-year="4" data-name="pinkfloyde" data-namealbum="the_wall">
-</div>
-           
-<div class="square-filter img_6-3 mix-target seventies punk fotografia" data-order="19" data-year="5" data-name="pattismith" data-namealbum="horses">
-</div>
-           
-<div class="square-filter img_6-4 mix-target seventies punk fotografia" data-order="21" data-year="5" data-name="ramones" data-namealbum="ramones">
-</div>
-         
-           
-           
-           
-           
-<!-- 7th row responsive images in background with centered content -->
-
-<div class="square-filter img_7-1 mix-target seventies punk ilustracao" data-order="23" data-year="3" data-name="sexpistols" data-namealbum="god_save_the_queen">
-</div>
-           
-<div class="square-filter img_7-2 mix-target seventies punk ilustracao" data-order="24" data-year="4" data-name="sexpistolsa" data-namealbum="never_mind_the_bollocks">
-</div>
-           
-<div class="square-filter img_7-3 mix-target seventies punk ilustracao" data-order="25" data-year="5" data-name="buzzcocks" data-namealbum="orgasm_addict">
-</div>
-           
-<div class="square-filter img_7-4 mix-target seventies punk ilustracao" data-order="26" data-year="5" data-name="joydivision" data-namealbum="unknown_pleasures">
-</div>
-         
-           
-           
-           
-<!-- 8th row responsive images in background with centered content -->
-
-<div class="square-filter img_8-1 mix-target seventies punk fotografia" data-order="29" data-year="3" data-name="clash" data-namealbum="london_calling">
-</div>
-           
-<div class="square-filter img_8-2 mix-target eighties punk ilustracao" data-order="30" data-year="4" data-name="neworder" data-namealbum="power_corruption_and_lies">
-</div>
-           
-<div class="square-filter img_8-3 mix-target nineties punk fotografia" data-order="31" data-year="5" data-name="nirvana" data-namealbum="nevermind">
-</div>
-           
-<div class="square-filter img_8-4 mix-target nineties punk ilustracao" data-order="32" data-year="5" data-name="greenday" data-namealbum="dookie">
-</div>
-           
-                      
-<!-- 9th row responsive images in background with centered content -->
-
-<div class="square-filter img_9-1 mix-target nineties punk fotografia" data-order="33" data-year="3" data-name="blink182" data-namealbum="enema_of_the_state">
-</div>
-           
-
-           
       </div>
             
 <!-- END OF LAYOUT, following juts for the demo -->
