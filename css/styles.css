@@ -961,8 +961,8 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     margin: 0 auto;
     height: auto;
     font-family: 'averta';
-    font-size: 22px !important;
-    line-height: 27px;
+    font-size: 18px !important;
+    line-height: 23px;
     color: #565778;
     
 }
@@ -1076,6 +1076,15 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
 }
 
 
+#intro-text a{
+    
+    color: #46c1c2;
+}
+
+#intro-text a:hover{
+     color: #e27985;
+    
+}
 
 #main-frame-sort {
     
@@ -1784,8 +1793,8 @@ li {
     #intro-text {
     
     
-    font-size: 17px !important;
-    line-height: 23px;
+    font-size: 15px !important;
+    line-height: 20px;
 
     
 }
