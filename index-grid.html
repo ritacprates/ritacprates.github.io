@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://jsfiddle.net/webtiki/MpXYr/2/embedded/result/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+   
+    
+       <link rel="stylesheet" href="style-grid.css">
+      
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css'>
+<link rel='stylesheet prefetch' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/skeleton.2.02.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+      
+       <div class="row">
+      <div class="twelve columns">
+        <h4>Filtrar</h4>
+      </div>
+    </div><!-- end of row -->
+
+    <div class="row">
+      <div class="twelve columns">
+        <div class="programs">
+          <button class="filter-btn" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter=".undergraduate">60s</button>
+          <button class="filter-btn" data-filter=".graduate">70s</button>
+          <button class="filter-btn" data-filter=".phd">80s</button>
+        </div>
+      </div>
+    </div><!-- end of row -->
+
+    <div class="row">
+      <div class="columns twelve">
+        <h4>Organizar</h4>
+      </div>
+    </div><!-- end of row -->
+
+    <div class="row">
+      <div class="columns twelve">
+        <div class="programs">
+          <button class="sort-btn" data-sort="order:asc">Cronologicamente</button>
+          <button class="sort-btn" data-sort="name:asc">Alfabeticamente (banda)</button>
+          <button class="sort-btn" data-sort="name-album:asc">Alfabeticamente (álbum)</button>
+            <button class="sort-btn" data-sort="random">Aleatório</button>
+        </div>
+      </div>
+    </div><!-- end of row -->
+ 
+       <div class="twelve columns courses" id="mix-wrapper">
+       
+  <!-- 1st row verticaly centered text in the square columns -->
+
+<div class="square img_1-1 mix-target undergraduate" data-order="1" data-year="4">
+</div>
+<div class="square img_1-2 mix-target graduate" data-order="2" data-year="2">
+</div>
+<div class="square img_1-3 mix-target graduate" data-order="3" data-year="1">
+</div>
+           
+           <div class="square img_1-4 mix-target graduate" data-order="4" data-year="1">
+</div>
+
+<!-- 2nd row verticaly centered images in square columns -->
+
+<div class="square img_2-1 mix-target phd" data-order="5" data-year="3">
+</div>
+<div class="square img_2-2 mix-target undergraduate" data-order="6" data-year="3">
+</div>
+<div class="square img_2-3 mix-target undergraduate" data-order="7" data-year="4">
+</div>
+
+           
+           <div class="square img_2-4 mix-target undergraduate" data-order="8" data-year="4">
+</div>
+
+<!-- 3rd row responsive images in background with centered content -->
+
+<div class="square img_3-1 mix-target phd" data-order="9" data-year="3">
+</div>
+<div class="square img_3-2 mix-target undergraduate" data-order="10" data-year="4">
+</div>
+<div class="square img_3-3 mix-target undergraduate" data-order="11" data-year="5">
+</div>
+           
+           <div class="square img_3-4 mix-target undergraduate" data-order="12" data-year="5">
+</div>
+      </div>
+            
+<!-- END OF LAYOUT, following juts for the demo -->
+
+
+    
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/mixitup.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+  
+
+</body></html>
