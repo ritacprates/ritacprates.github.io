@@ -1442,6 +1442,27 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     
 }
 
+#about-text-2 {
+    
+    width: 60%;
+    max-width: 780px;
+    padding: 30px;
+    float: left;
+    background-color: #ededee;
+    font-family: 'averta';
+    font-size: 15px;
+    line-height: 20px;
+    color: #565778;
+    margin-top: 100px;
+    
+}
+
+#credits-title {
+    
+    font-family: 'camptonbold';
+    font-size: 25px;
+    line-height: 50px;
+}
 
 
 #rock-image {
@@ -1748,6 +1769,11 @@ li {
         
     }
     
+    #about-text-2{
+        
+        width: 100%;
+        max-width: none;
+    }
     
     #rock-image {
     
