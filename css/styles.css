@@ -1437,9 +1437,19 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     background-color: #ededee;
     font-family: 'averta';
     font-size: 18px;
-    line-height: 22px;
+    line-height: 26px;
     color: #565778;
     
+}
+
+#about-text a{
+    
+    color: #46c1c2;
+}
+
+#about-text a:hover {
+    
+    color: #e27985;
 }
 
 #about-text-2 {
