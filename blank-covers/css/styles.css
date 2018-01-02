@@ -1244,7 +1244,6 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     max-width: 780px;
     padding: 30px;
     float: left;
-    background-color: #a7dcdc;
     font-family: 'averta';
     font-size: 18px;
     line-height: 22px;
@@ -1258,7 +1257,6 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     max-width: 780px;
     padding: 30px;
     float: left;
-    background-color: #f1c0c9;
     font-family: 'averta';
     font-size: 18px;
     line-height: 22px;
@@ -1273,7 +1271,6 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     max-width: 780px;
     padding: 30px;
     float: left;
-    background-color: #ededee;
     font-family: 'averta';
     font-size: 18px;
     line-height: 22px;
@@ -1550,7 +1547,6 @@ li {
    max-width: none;
     padding: 30px;
     float: left;
-    background-color: #a7dcdc;
     font-family: 'averta';
     font-size: 15px;
     line-height: 20px;
@@ -1564,7 +1560,6 @@ li {
    max-width: none;
     padding: 30px;
     float: left;
-    background-color: #f1c0c9;
     font-family: 'averta';
     font-size: 15px;
     line-height: 20px;
@@ -1579,7 +1574,7 @@ li {
    max-width: none;
     padding: 30px;
     float: left;
-    background-color: #ededee;
+
     font-family: 'averta';
     font-size: 15px;
     line-height: 20px;
