@@ -942,6 +942,22 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
     
 }
 
+#close {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    width: 25%;
+    text-align: right;
+    height: auto;
+
+    font-family: 'camptonbold';
+    font-size: 40px;
+    padding-right: 5vw;
+
+    color: #565778;
+    
+}
 
 #title {
     display: block;
